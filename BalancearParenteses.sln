@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancearParenteses", "src\BalancearParenteses\BalancearParenteses.csproj", "{A6F3425C-3F5B-466F-B11E-58083A77FC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceadorDeParenteses", "src\BalanceadorDeParenteses\BalanceadorDeParenteses.csproj", "{B133960D-20A9-4677-A043-4C7A7EE087A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceadorDeParenteses.Test", "src\BalanceadorDeParenteses.Test\BalanceadorDeParenteses.Test.csproj", "{954FC5FA-A306-40B1-A487-62A913A1A239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED5201EA-B23C-4F85-834C-D9BBC78640E3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6F3425C-3F5B-466F-B11E-58083A77FC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F3425C-3F5B-466F-B11E-58083A77FC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F3425C-3F5B-466F-B11E-58083A77FC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F3425C-3F5B-466F-B11E-58083A77FC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B133960D-20A9-4677-A043-4C7A7EE087A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B133960D-20A9-4677-A043-4C7A7EE087A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B133960D-20A9-4677-A043-4C7A7EE087A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B133960D-20A9-4677-A043-4C7A7EE087A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954FC5FA-A306-40B1-A487-62A913A1A239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954FC5FA-A306-40B1-A487-62A913A1A239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954FC5FA-A306-40B1-A487-62A913A1A239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954FC5FA-A306-40B1-A487-62A913A1A239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
