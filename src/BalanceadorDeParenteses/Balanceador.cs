@@ -25,7 +25,8 @@ namespace BalanceadorDeParenteses
             else if (item == PARENTESES_FECHA)
                 emAberto--;
 
-            emAberto = Balanceavel(valor, ++posicao, emAberto);
+            if(-1 < emAberto)
+                emAberto = Balanceavel(valor, ++posicao, emAberto);
 
             return emAberto;
         }

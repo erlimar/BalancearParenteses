@@ -7,7 +7,6 @@ namespace BalanceadorDeParenteses.Test
         [Theory]
         [InlineData("((1+1)*2) + (10+2) + (((2-1)-1)*1)")]
         [InlineData("O Fulano (aquele que fez aniversário hoje) perguntou por você.")]
-        [InlineData("isso ) *(aqui também (1+2) é válido, mas é um BUG proposital pra ser resolvido em uma refatoração")]
         public void Aceita_Parenteses_Balanceados(string valor)
         {
             Assert.True(Balanceador.Balanceavel(valor));
@@ -16,6 +15,7 @@ namespace BalanceadorDeParenteses.Test
         [Theory]
         [InlineData("&:)")]
         [InlineData("#:)")]
+        [InlineData("isso ) *(aqui agora (1+2) é inválido, foi um BUG proposital resolvido após uma refatoração")]
         public void Nao_Aceita_Parenteses_Balanceados(string valor)
         {
             Assert.False(Balanceador.Balanceavel(valor));
