@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancearParenteses", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceadorDeParenteses", "src\BalanceadorDeParenteses\BalanceadorDeParenteses.csproj", "{B133960D-20A9-4677-A043-4C7A7EE087A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceadorDeParenteses.Test", "src\BalanceadorDeParenteses.Test\BalanceadorDeParenteses.Test.csproj", "{954FC5FA-A306-40B1-A487-62A913A1A239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceadorDeParenteses.Test", "test\BalanceadorDeParenteses.Test\BalanceadorDeParenteses.Test.csproj", "{954FC5FA-A306-40B1-A487-62A913A1A239}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED5201EA-B23C-4F85-834C-D9BBC78640E3}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED5201
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BACE5450-0C6B-4F06-AD2D-E2189689C1CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{89B3E6B3-3236-47B5-A7E1-BC565D3290D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +41,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6F3425C-3F5B-466F-B11E-58083A77FC8D} = {BACE5450-0C6B-4F06-AD2D-E2189689C1CF}
+		{B133960D-20A9-4677-A043-4C7A7EE087A0} = {BACE5450-0C6B-4F06-AD2D-E2189689C1CF}
+		{954FC5FA-A306-40B1-A487-62A913A1A239} = {89B3E6B3-3236-47B5-A7E1-BC565D3290D3}
 	EndGlobalSection
 EndGlobal

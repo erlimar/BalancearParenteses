@@ -63,7 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BalanceadorDeParenteses\BalanceadorDeParenteses.csproj">
+    <ProjectReference Include="..\..\src\BalanceadorDeParenteses\BalanceadorDeParenteses.csproj">
       <Project>{b133960d-20a9-4677-a043-4c7a7ee087a0}</Project>
       <Name>BalanceadorDeParenteses</Name>
     </ProjectReference>
